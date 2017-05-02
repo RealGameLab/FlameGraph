@@ -1,3 +1,9 @@
+# For UE4
+
+```
+python stackcollapse-unreal.py LogCat.log | perl flamegraph.pl > example.svg
+```
+
 # Flame Graphs visualize profiled code
 
 Main Website: http://www.brendangregg.com/flamegraphs.html
